@@ -1,9 +1,10 @@
 pip
 streamlit
 pandas
-statmodels
-numpy
+statsmodels
+numpy 
 sklearn
 matplotlib
 scipy
 seaborn
+
