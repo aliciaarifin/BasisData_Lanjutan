@@ -1,1 +1,14 @@
-
+pip
+streamlit
+pandas
+statmodels.api
+statmodels.formula.api
+numpy
+statsmodels.stats.outliers_influence
+statsmodels.tools.tools
+sklearn.dummy
+sklearn.model_selection
+sklearn.metrics
+matplotlib.pyplot
+scipy.stats
+seaborn
