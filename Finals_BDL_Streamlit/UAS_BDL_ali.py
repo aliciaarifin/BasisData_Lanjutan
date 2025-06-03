@@ -17,7 +17,7 @@ st.markdown("Alicia Arifin, Basis Data Lanjutan")
 
 st.header("Flowchart")
 
-st.image(r"C:\Users\yippi\Documents\kuliah ali\8_basis data lanjutan\UAS\FitRegression.png")
+st.image("FitRegression.png")
 
 st.markdown("First, the data will ke imported to python. One of those variables will be chosen to be dependent variables. Inthis case study, that variabels is exam score. For best modeling, numeric variables will be chosen using correlation and categoric variables will be using anova. The chosen variabels using correlation when the correlation with exam score's more than 0,5 (strong correlation). The chosen variabels using anova when the variables have a significant difference from groups. After knowing which's which, the best variables are going to be analyze using regression. Regression that are going to be used are linear regression, dummy regression, and non-linear distributions regression.")
 
@@ -28,7 +28,7 @@ st.header("Data: Students Exam Performance")
 st.markdown("The data was from [kaggle](https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance) about students performance. The data filled with 1000 rows and 16 columns. The columns are student id, age, gender, study hours per day, social media hours, netflix hours, part time job, attandance percentage, sleep hours, diet quality, excercise frequency, parental educational level, internet quality, mental health rating, extracurricular participation and exam score. From these variables, the dependent variable or target variables is exam score. From this data, we will try to see what variables are maybe best for predicting exam score. To show the data, i use the code right below this text using pandas. Because the data have 1000 rows, i only show the first 10 rows. Later, student id will be removed because student id are index of the students.")
 
 
-students = pd.read_csv(r"C:\Users\yippi\Documents\kuliah ali\8_basis data lanjutan\UAS\student_habits_performance.csv")
+students = pd.read_csv("student_habits_performance.csv")
 
 st.code(
 '''
@@ -197,8 +197,8 @@ else:
     print("\nCould not find a suitable distribution or fitting failed for all candidates.")
 '''
 st.code(fitted_dist)
-st.image(r"C:\Users\yippi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-04 015753.png")
-st.image(r"C:\Users\yippi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-04 015619.png")
+st.image("ks_par.png")
+st.image("data_dist.png")
 
 st.markdown("The best fitted probability density function of exam score are weibull min. So, predicting exam score can use weibull regression. However, weibull regression are meant to survival analysis, and this data was originally not for survival analysis. The hope for this data is to find the best way to predict exam score. So, i think the best modeling exam score are using linear regression with study hours per day. For visualisation dashboard, i will use google looker for descriptive and visualization in this [link](https://lookerstudio.google.com/reporting/9b5354c8-fff9-4645-83cc-99bb9eeb3ce4).")
 
