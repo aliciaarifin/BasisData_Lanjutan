@@ -17,7 +17,7 @@ st.markdown("Alicia Arifin, Basis Data Lanjutan")
 
 st.header("Flowchart")
 
-st.image("FitRegression.png")
+st.image("Finals_BDL_Streamlit/FitRegression.png")
 
 st.markdown("First, the data will ke imported to python. One of those variables will be chosen to be dependent variables. Inthis case study, that variabels is exam score. For best modeling, numeric variables will be chosen using correlation and categoric variables will be using anova. The chosen variabels using correlation when the correlation with exam score's more than 0,5 (strong correlation). The chosen variabels using anova when the variables have a significant difference from groups. After knowing which's which, the best variables are going to be analyze using regression. Regression that are going to be used are linear regression, dummy regression, and non-linear distributions regression.")
 
