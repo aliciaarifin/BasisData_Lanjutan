@@ -3,7 +3,7 @@ streamlit
 pandas
 statsmodels
 numpy 
-sklearn
+scikit-learn
 matplotlib
 scipy
 seaborn
