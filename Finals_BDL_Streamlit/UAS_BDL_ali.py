@@ -198,7 +198,7 @@ else:
 '''
 st.code(fitted_dist)
 st.image("ks_par.png")
-st.image("data_dist.png")
+st.image("dist.png")
 
 st.markdown("The best fitted probability density function of exam score are weibull min. So, predicting exam score can use weibull regression. However, weibull regression are meant to survival analysis, and this data was originally not for survival analysis. The hope for this data is to find the best way to predict exam score. So, i think the best modeling exam score are using linear regression with study hours per day. For visualisation dashboard, i will use google looker for descriptive and visualization in this [link](https://lookerstudio.google.com/reporting/9b5354c8-fff9-4645-83cc-99bb9eeb3ce4).")
 
